@@ -1,0 +1,27 @@
+{
+  "name": "verdant-syntax",
+  "displayName": "Verdant Syntax",
+  "description": "A restrained green-accented VS Code theme with crisp borders, in dark and light variants.",
+  "version": "0.2.3",
+  "publisher": "local",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": ["Themes"],
+  "keywords": ["theme", "dark", "light", "green", "syntax"],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Verdant Syntax Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/verdant-dark-color-theme.json"
+      },
+      {
+        "label": "Verdant Syntax Light",
+        "uiTheme": "vs",
+        "path": "./themes/verdant-light-color-theme.json"
+      }
+    ]
+  }
+}
