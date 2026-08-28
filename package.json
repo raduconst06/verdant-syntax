@@ -1,15 +1,15 @@
 {
   "name": "verdant-syntax",
   "displayName": "Verdant Syntax",
-  "description": "A restrained green-accented VS Code theme with crisp borders, in dark and light variants.",
-  "version": "0.2.3",
+  "description": "Nebula-inspired VS Code color and file icon themes with dark and light variants.",
+  "version": "0.3.0",
   "publisher": "local",
   "license": "MIT",
   "engines": {
     "vscode": "^1.85.0"
   },
   "categories": ["Themes"],
-  "keywords": ["theme", "dark", "light", "green", "syntax"],
+  "keywords": ["theme", "dark", "light", "green", "syntax", "icons", "phosphor"],
   "contributes": {
     "themes": [
       {
@@ -21,6 +21,13 @@
         "label": "Verdant Syntax Light",
         "uiTheme": "vs",
         "path": "./themes/verdant-light-color-theme.json"
+      }
+    ],
+    "iconThemes": [
+      {
+        "id": "verdant-phosphor",
+        "label": "Verdant Phosphor",
+        "path": "./file-icons/verdant-phosphor-icon-theme.json"
       }
     ]
   }

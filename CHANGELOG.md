@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.3.0
+
+- Add the Verdant Phosphor file icon theme.
+- Map Phosphor duotone icons to common languages, file types and project folders.
+- Include the upstream Phosphor Icons MIT license.
+
 ## 0.2.3
 
 - Match the light workbench canvas to the supplied neutral gray reference.
