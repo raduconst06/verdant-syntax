@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.3.1
+
+- Add a dedicated Verdant Phosphor Light icon set with stronger contrast.
+- Rename the original icon set to Verdant Phosphor Dark.
+
 ## 0.3.0
 
 - Add the Verdant Phosphor file icon theme.

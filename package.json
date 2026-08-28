@@ -2,7 +2,7 @@
   "name": "verdant-syntax",
   "displayName": "Verdant Syntax",
   "description": "Nebula-inspired VS Code color and file icon themes with dark and light variants.",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "publisher": "local",
   "license": "MIT",
   "engines": {
@@ -26,8 +26,13 @@
     "iconThemes": [
       {
         "id": "verdant-phosphor",
-        "label": "Verdant Phosphor",
+        "label": "Verdant Phosphor Dark",
         "path": "./file-icons/verdant-phosphor-icon-theme.json"
+      },
+      {
+        "id": "verdant-phosphor-light",
+        "label": "Verdant Phosphor Light",
+        "path": "./file-icons/verdant-phosphor-light-icon-theme.json"
       }
     ]
   }

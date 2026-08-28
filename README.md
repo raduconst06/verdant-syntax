@@ -4,9 +4,11 @@ A calm, precise VS Code theme with dark and light variants. Syntax uses a
 focused green-and-neutral palette; borders remain visible throughout the
 workbench without making the editor feel noisy.
 
-The extension also includes **Verdant Phosphor**, a duotone file icon theme
-built from [Phosphor Icons](https://phosphoricons.com/) and recolored in the
-same nebula-inspired sage, mist and warm-star palette.
+The extension also includes **Verdant Phosphor Dark** and **Verdant Phosphor
+Light**, duotone file icon themes built from
+[Phosphor Icons](https://phosphoricons.com/) and recolored in the same
+nebula-inspired sage, mist and warm-star palette. Each variant is tuned for
+the contrast of its matching color theme.
 
 ## Try it locally
 
@@ -16,7 +18,8 @@ same nebula-inspired sage, mist and warm-star palette.
    Development Host.
 3. Run **Preferences: Color Theme** and select **Verdant Syntax Dark** or
    **Verdant Syntax Light**.
-4. Run **Preferences: File Icon Theme** and select **Verdant Phosphor**.
+4. Run **Preferences: File Icon Theme** and select **Verdant Phosphor Dark**
+   or **Verdant Phosphor Light** to match the active color theme.
 
 To package it, run `npx @vscode/vsce package` from this folder. Change the
 `publisher` field before publishing to the Marketplace.
