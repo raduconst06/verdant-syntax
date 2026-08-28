@@ -2,42 +2,222 @@
   "$schema": "vscode://schemas/icon-theme",
   "hidesExplorerArrows": false,
   "iconDefinitions": {
-    "file": { "iconPath": "./icons/file.svg" },
-    "folder": { "iconPath": "./icons/folder.svg" },
-    "folder-open": { "iconPath": "./icons/folder-open.svg" },
-    "code": { "iconPath": "./icons/file-code.svg" },
-    "ts": { "iconPath": "./icons/file-ts.svg" },
-    "tsx": { "iconPath": "./icons/file-tsx.svg" },
-    "js": { "iconPath": "./icons/file-js.svg" },
-    "jsx": { "iconPath": "./icons/file-jsx.svg" },
-    "html": { "iconPath": "./icons/file-html.svg" },
-    "css": { "iconPath": "./icons/file-css.svg" },
-    "python": { "iconPath": "./icons/file-py.svg" },
-    "rust": { "iconPath": "./icons/file-rs.svg" },
-    "c": { "iconPath": "./icons/file-c.svg" },
-    "cpp": { "iconPath": "./icons/file-cpp.svg" },
-    "csharp": { "iconPath": "./icons/file-c-sharp.svg" },
-    "sql": { "iconPath": "./icons/file-sql.svg" },
-    "markdown": { "iconPath": "./icons/file-md.svg" },
-    "json": { "iconPath": "./icons/file-json.svg" },
-    "image": { "iconPath": "./icons/file-image.svg" },
-    "svg": { "iconPath": "./icons/file-svg.svg" },
-    "pdf": { "iconPath": "./icons/file-pdf.svg" },
-    "archive": { "iconPath": "./icons/file-archive.svg" },
-    "text": { "iconPath": "./icons/file-text.svg" },
-    "lock": { "iconPath": "./icons/file-lock.svg" },
-    "config": { "iconPath": "./icons/gear.svg" },
-    "package": { "iconPath": "./icons/package.svg" },
-    "git": { "iconPath": "./icons/git-branch.svg" },
-    "github": { "iconPath": "./icons/github-logo.svg" },
-    "terminal": { "iconPath": "./icons/terminal-window.svg" },
-    "database": { "iconPath": "./icons/database.svg" },
-    "docs": { "iconPath": "./icons/books.svg" },
-    "assets": { "iconPath": "./icons/images.svg" },
-    "tests": { "iconPath": "./icons/test-tube.svg" },
-    "public": { "iconPath": "./icons/globe.svg" },
-    "cloud": { "iconPath": "./icons/cloud.svg" },
-    "warning": { "iconPath": "./icons/warning-circle.svg" }
+    "file": {
+      "iconPath": "./icons/file.svg"
+    },
+    "folder": {
+      "iconPath": "./icons/folder.svg"
+    },
+    "folder-open": {
+      "iconPath": "./icons/folder-open.svg"
+    },
+    "code": {
+      "iconPath": "./icons/file-code.svg"
+    },
+    "ts": {
+      "iconPath": "./icons/file-ts.svg"
+    },
+    "tsx": {
+      "iconPath": "./icons/file-tsx.svg"
+    },
+    "js": {
+      "iconPath": "./icons/file-js.svg"
+    },
+    "jsx": {
+      "iconPath": "./icons/file-jsx.svg"
+    },
+    "html": {
+      "iconPath": "./icons/file-html.svg"
+    },
+    "css": {
+      "iconPath": "./icons/file-css.svg"
+    },
+    "python": {
+      "iconPath": "./icons/file-py.svg"
+    },
+    "rust": {
+      "iconPath": "./icons/file-rs.svg"
+    },
+    "c": {
+      "iconPath": "./icons/file-c.svg"
+    },
+    "cpp": {
+      "iconPath": "./icons/file-cpp.svg"
+    },
+    "csharp": {
+      "iconPath": "./icons/file-c-sharp.svg"
+    },
+    "sql": {
+      "iconPath": "./icons/file-sql.svg"
+    },
+    "markdown": {
+      "iconPath": "./icons/file-md.svg"
+    },
+    "json": {
+      "iconPath": "./icons/file-json.svg"
+    },
+    "image": {
+      "iconPath": "./icons/file-image.svg"
+    },
+    "svg": {
+      "iconPath": "./icons/file-svg.svg"
+    },
+    "pdf": {
+      "iconPath": "./icons/file-pdf.svg"
+    },
+    "archive": {
+      "iconPath": "./icons/file-archive.svg"
+    },
+    "text": {
+      "iconPath": "./icons/file-text.svg"
+    },
+    "lock": {
+      "iconPath": "./icons/file-lock.svg"
+    },
+    "config": {
+      "iconPath": "./icons/gear.svg"
+    },
+    "package": {
+      "iconPath": "./icons/package.svg"
+    },
+    "git": {
+      "iconPath": "./icons/git-branch.svg"
+    },
+    "github": {
+      "iconPath": "./icons/github-logo.svg"
+    },
+    "terminal": {
+      "iconPath": "./icons/terminal-window.svg"
+    },
+    "database": {
+      "iconPath": "./icons/database.svg"
+    },
+    "docs": {
+      "iconPath": "./icons/books.svg"
+    },
+    "assets": {
+      "iconPath": "./icons/images.svg"
+    },
+    "tests": {
+      "iconPath": "./icons/test-tube.svg"
+    },
+    "public": {
+      "iconPath": "./icons/globe.svg"
+    },
+    "cloud": {
+      "iconPath": "./icons/cloud.svg"
+    },
+    "warning": {
+      "iconPath": "./icons/warning-circle.svg"
+    },
+    "file-light": {
+      "iconPath": "./light-icons/file.svg"
+    },
+    "folder-light": {
+      "iconPath": "./light-icons/folder.svg"
+    },
+    "folder-open-light": {
+      "iconPath": "./light-icons/folder-open.svg"
+    },
+    "code-light": {
+      "iconPath": "./light-icons/file-code.svg"
+    },
+    "ts-light": {
+      "iconPath": "./light-icons/file-ts.svg"
+    },
+    "tsx-light": {
+      "iconPath": "./light-icons/file-tsx.svg"
+    },
+    "js-light": {
+      "iconPath": "./light-icons/file-js.svg"
+    },
+    "jsx-light": {
+      "iconPath": "./light-icons/file-jsx.svg"
+    },
+    "html-light": {
+      "iconPath": "./light-icons/file-html.svg"
+    },
+    "css-light": {
+      "iconPath": "./light-icons/file-css.svg"
+    },
+    "python-light": {
+      "iconPath": "./light-icons/file-py.svg"
+    },
+    "rust-light": {
+      "iconPath": "./light-icons/file-rs.svg"
+    },
+    "c-light": {
+      "iconPath": "./light-icons/file-c.svg"
+    },
+    "cpp-light": {
+      "iconPath": "./light-icons/file-cpp.svg"
+    },
+    "csharp-light": {
+      "iconPath": "./light-icons/file-c-sharp.svg"
+    },
+    "sql-light": {
+      "iconPath": "./light-icons/file-sql.svg"
+    },
+    "markdown-light": {
+      "iconPath": "./light-icons/file-md.svg"
+    },
+    "json-light": {
+      "iconPath": "./light-icons/file-json.svg"
+    },
+    "image-light": {
+      "iconPath": "./light-icons/file-image.svg"
+    },
+    "svg-light": {
+      "iconPath": "./light-icons/file-svg.svg"
+    },
+    "pdf-light": {
+      "iconPath": "./light-icons/file-pdf.svg"
+    },
+    "archive-light": {
+      "iconPath": "./light-icons/file-archive.svg"
+    },
+    "text-light": {
+      "iconPath": "./light-icons/file-text.svg"
+    },
+    "lock-light": {
+      "iconPath": "./light-icons/file-lock.svg"
+    },
+    "config-light": {
+      "iconPath": "./light-icons/gear.svg"
+    },
+    "package-light": {
+      "iconPath": "./light-icons/package.svg"
+    },
+    "git-light": {
+      "iconPath": "./light-icons/git-branch.svg"
+    },
+    "github-light": {
+      "iconPath": "./light-icons/github-logo.svg"
+    },
+    "terminal-light": {
+      "iconPath": "./light-icons/terminal-window.svg"
+    },
+    "database-light": {
+      "iconPath": "./light-icons/database.svg"
+    },
+    "docs-light": {
+      "iconPath": "./light-icons/books.svg"
+    },
+    "assets-light": {
+      "iconPath": "./light-icons/images.svg"
+    },
+    "tests-light": {
+      "iconPath": "./light-icons/test-tube.svg"
+    },
+    "public-light": {
+      "iconPath": "./light-icons/globe.svg"
+    },
+    "cloud-light": {
+      "iconPath": "./light-icons/cloud.svg"
+    },
+    "warning-light": {
+      "iconPath": "./light-icons/warning-circle.svg"
+    }
   },
   "file": "file",
   "folder": "folder",
@@ -45,29 +225,65 @@
   "rootFolder": "folder",
   "rootFolderExpanded": "folder-open",
   "fileExtensions": {
-    "ts": "ts", "mts": "ts", "cts": "ts",
+    "ts": "ts",
+    "mts": "ts",
+    "cts": "ts",
     "tsx": "tsx",
-    "js": "js", "mjs": "js", "cjs": "js",
+    "js": "js",
+    "mjs": "js",
+    "cjs": "js",
     "jsx": "jsx",
-    "html": "html", "htm": "html",
-    "css": "css", "scss": "css", "sass": "css", "less": "css",
-    "py": "python", "pyi": "python",
+    "html": "html",
+    "htm": "html",
+    "css": "css",
+    "scss": "css",
+    "sass": "css",
+    "less": "css",
+    "py": "python",
+    "pyi": "python",
     "rs": "rust",
-    "c": "c", "h": "c",
-    "cc": "cpp", "cpp": "cpp", "cxx": "cpp", "hpp": "cpp",
+    "c": "c",
+    "h": "c",
+    "cc": "cpp",
+    "cpp": "cpp",
+    "cxx": "cpp",
+    "hpp": "cpp",
     "cs": "csharp",
-    "sql": "sql", "sqlite": "database", "db": "database",
-    "md": "markdown", "mdx": "markdown",
-    "json": "json", "jsonc": "json", "json5": "json",
-    "png": "image", "jpg": "image", "jpeg": "image", "gif": "image", "webp": "image", "avif": "image", "ico": "image",
+    "sql": "sql",
+    "sqlite": "database",
+    "db": "database",
+    "md": "markdown",
+    "mdx": "markdown",
+    "json": "json",
+    "jsonc": "json",
+    "json5": "json",
+    "png": "image",
+    "jpg": "image",
+    "jpeg": "image",
+    "gif": "image",
+    "webp": "image",
+    "avif": "image",
+    "ico": "image",
     "svg": "svg",
     "pdf": "pdf",
-    "zip": "archive", "tar": "archive", "gz": "archive", "7z": "archive", "rar": "archive",
-    "txt": "text", "log": "text",
+    "zip": "archive",
+    "tar": "archive",
+    "gz": "archive",
+    "7z": "archive",
+    "rar": "archive",
+    "txt": "text",
+    "log": "text",
     "lock": "lock",
-    "ini": "config", "toml": "config", "yaml": "config", "yml": "config",
-    "sh": "terminal", "bash": "terminal", "zsh": "terminal", "fish": "terminal",
-    "csv": "database", "tsv": "database"
+    "ini": "config",
+    "toml": "config",
+    "yaml": "config",
+    "yml": "config",
+    "sh": "terminal",
+    "bash": "terminal",
+    "zsh": "terminal",
+    "fish": "terminal",
+    "csv": "database",
+    "tsv": "database"
   },
   "fileNames": {
     "package.json": "package",
@@ -99,37 +315,264 @@
     "playwright.config.ts": "tests"
   },
   "folderNames": {
-    "src": "code", "source": "code", "lib": "code", "app": "code",
-    "test": "tests", "tests": "tests", "__tests__": "tests", "spec": "tests",
-    "docs": "docs", "documentation": "docs",
-    "assets": "assets", "images": "assets", "icons": "assets",
-    "config": "config", ".config": "config", ".vscode": "config",
-    "scripts": "terminal", "bin": "terminal",
-    "db": "database", "database": "database", "migrations": "database",
-    "public": "public", "static": "public",
+    "src": "code",
+    "source": "code",
+    "lib": "code",
+    "app": "code",
+    "test": "tests",
+    "tests": "tests",
+    "__tests__": "tests",
+    "spec": "tests",
+    "docs": "docs",
+    "documentation": "docs",
+    "assets": "assets",
+    "images": "assets",
+    "icons": "assets",
+    "config": "config",
+    ".config": "config",
+    ".vscode": "config",
+    "scripts": "terminal",
+    "bin": "terminal",
+    "db": "database",
+    "database": "database",
+    "migrations": "database",
+    "public": "public",
+    "static": "public",
     ".github": "github",
-    "node_modules": "package", "vendor": "package",
-    "dist": "archive", "build": "archive", "out": "archive"
+    "node_modules": "package",
+    "vendor": "package",
+    "dist": "archive",
+    "build": "archive",
+    "out": "archive"
   },
   "folderNamesExpanded": {
-    "src": "code", "source": "code", "lib": "code", "app": "code",
-    "test": "tests", "tests": "tests", "__tests__": "tests", "spec": "tests",
-    "docs": "docs", "documentation": "docs",
-    "assets": "assets", "images": "assets", "icons": "assets",
-    "config": "config", ".config": "config", ".vscode": "config",
-    "scripts": "terminal", "bin": "terminal",
-    "db": "database", "database": "database", "migrations": "database",
-    "public": "public", "static": "public",
+    "src": "code",
+    "source": "code",
+    "lib": "code",
+    "app": "code",
+    "test": "tests",
+    "tests": "tests",
+    "__tests__": "tests",
+    "spec": "tests",
+    "docs": "docs",
+    "documentation": "docs",
+    "assets": "assets",
+    "images": "assets",
+    "icons": "assets",
+    "config": "config",
+    ".config": "config",
+    ".vscode": "config",
+    "scripts": "terminal",
+    "bin": "terminal",
+    "db": "database",
+    "database": "database",
+    "migrations": "database",
+    "public": "public",
+    "static": "public",
     ".github": "github",
-    "node_modules": "package", "vendor": "package",
-    "dist": "archive", "build": "archive", "out": "archive"
+    "node_modules": "package",
+    "vendor": "package",
+    "dist": "archive",
+    "build": "archive",
+    "out": "archive"
   },
   "languageIds": {
-    "typescript": "ts", "typescriptreact": "tsx",
-    "javascript": "js", "javascriptreact": "jsx",
-    "html": "html", "css": "css", "scss": "css", "less": "css",
-    "python": "python", "rust": "rust", "c": "c", "cpp": "cpp", "csharp": "csharp",
-    "sql": "sql", "markdown": "markdown", "json": "json", "jsonc": "json",
+    "typescript": "ts",
+    "typescriptreact": "tsx",
+    "javascript": "js",
+    "javascriptreact": "jsx",
+    "html": "html",
+    "css": "css",
+    "scss": "css",
+    "less": "css",
+    "python": "python",
+    "rust": "rust",
+    "c": "c",
+    "cpp": "cpp",
+    "csharp": "csharp",
+    "sql": "sql",
+    "markdown": "markdown",
+    "json": "json",
+    "jsonc": "json",
     "shellscript": "terminal"
+  },
+  "light": {
+    "file": "file-light",
+    "folder": "folder-light",
+    "folderExpanded": "folder-open-light",
+    "rootFolder": "folder-light",
+    "rootFolderExpanded": "folder-open-light",
+    "fileExtensions": {
+      "ts": "ts-light",
+      "mts": "ts-light",
+      "cts": "ts-light",
+      "tsx": "tsx-light",
+      "js": "js-light",
+      "mjs": "js-light",
+      "cjs": "js-light",
+      "jsx": "jsx-light",
+      "html": "html-light",
+      "htm": "html-light",
+      "css": "css-light",
+      "scss": "css-light",
+      "sass": "css-light",
+      "less": "css-light",
+      "py": "python-light",
+      "pyi": "python-light",
+      "rs": "rust-light",
+      "c": "c-light",
+      "h": "c-light",
+      "cc": "cpp-light",
+      "cpp": "cpp-light",
+      "cxx": "cpp-light",
+      "hpp": "cpp-light",
+      "cs": "csharp-light",
+      "sql": "sql-light",
+      "sqlite": "database-light",
+      "db": "database-light",
+      "md": "markdown-light",
+      "mdx": "markdown-light",
+      "json": "json-light",
+      "jsonc": "json-light",
+      "json5": "json-light",
+      "png": "image-light",
+      "jpg": "image-light",
+      "jpeg": "image-light",
+      "gif": "image-light",
+      "webp": "image-light",
+      "avif": "image-light",
+      "ico": "image-light",
+      "svg": "svg-light",
+      "pdf": "pdf-light",
+      "zip": "archive-light",
+      "tar": "archive-light",
+      "gz": "archive-light",
+      "7z": "archive-light",
+      "rar": "archive-light",
+      "txt": "text-light",
+      "log": "text-light",
+      "lock": "lock-light",
+      "ini": "config-light",
+      "toml": "config-light",
+      "yaml": "config-light",
+      "yml": "config-light",
+      "sh": "terminal-light",
+      "bash": "terminal-light",
+      "zsh": "terminal-light",
+      "fish": "terminal-light",
+      "csv": "database-light",
+      "tsv": "database-light"
+    },
+    "fileNames": {
+      "package.json": "package-light",
+      "package-lock.json": "lock-light",
+      "bun.lock": "lock-light",
+      "bun.lockb": "lock-light",
+      "yarn.lock": "lock-light",
+      "pnpm-lock.yaml": "lock-light",
+      "deno.lock": "lock-light",
+      "Cargo.toml": "package-light",
+      "Cargo.lock": "lock-light",
+      "composer.json": "package-light",
+      "composer.lock": "lock-light",
+      ".gitignore": "git-light",
+      ".gitattributes": "git-light",
+      ".gitmodules": "git-light",
+      ".env": "lock-light",
+      ".env.local": "lock-light",
+      "Dockerfile": "cloud-light",
+      "docker-compose.yml": "cloud-light",
+      "docker-compose.yaml": "cloud-light",
+      "README.md": "docs-light",
+      "LICENSE": "docs-light",
+      "LICENSE.md": "docs-light",
+      "tsconfig.json": "config-light",
+      "jsconfig.json": "config-light",
+      "vite.config.ts": "config-light",
+      "vitest.config.ts": "tests-light",
+      "playwright.config.ts": "tests-light"
+    },
+    "folderNames": {
+      "src": "code-light",
+      "source": "code-light",
+      "lib": "code-light",
+      "app": "code-light",
+      "test": "tests-light",
+      "tests": "tests-light",
+      "__tests__": "tests-light",
+      "spec": "tests-light",
+      "docs": "docs-light",
+      "documentation": "docs-light",
+      "assets": "assets-light",
+      "images": "assets-light",
+      "icons": "assets-light",
+      "config": "config-light",
+      ".config": "config-light",
+      ".vscode": "config-light",
+      "scripts": "terminal-light",
+      "bin": "terminal-light",
+      "db": "database-light",
+      "database": "database-light",
+      "migrations": "database-light",
+      "public": "public-light",
+      "static": "public-light",
+      ".github": "github-light",
+      "node_modules": "package-light",
+      "vendor": "package-light",
+      "dist": "archive-light",
+      "build": "archive-light",
+      "out": "archive-light"
+    },
+    "folderNamesExpanded": {
+      "src": "code-light",
+      "source": "code-light",
+      "lib": "code-light",
+      "app": "code-light",
+      "test": "tests-light",
+      "tests": "tests-light",
+      "__tests__": "tests-light",
+      "spec": "tests-light",
+      "docs": "docs-light",
+      "documentation": "docs-light",
+      "assets": "assets-light",
+      "images": "assets-light",
+      "icons": "assets-light",
+      "config": "config-light",
+      ".config": "config-light",
+      ".vscode": "config-light",
+      "scripts": "terminal-light",
+      "bin": "terminal-light",
+      "db": "database-light",
+      "database": "database-light",
+      "migrations": "database-light",
+      "public": "public-light",
+      "static": "public-light",
+      ".github": "github-light",
+      "node_modules": "package-light",
+      "vendor": "package-light",
+      "dist": "archive-light",
+      "build": "archive-light",
+      "out": "archive-light"
+    },
+    "languageIds": {
+      "typescript": "ts-light",
+      "typescriptreact": "tsx-light",
+      "javascript": "js-light",
+      "javascriptreact": "jsx-light",
+      "html": "html-light",
+      "css": "css-light",
+      "scss": "css-light",
+      "less": "css-light",
+      "python": "python-light",
+      "rust": "rust-light",
+      "c": "c-light",
+      "cpp": "cpp-light",
+      "csharp": "csharp-light",
+      "sql": "sql-light",
+      "markdown": "markdown-light",
+      "json": "json-light",
+      "jsonc": "json-light",
+      "shellscript": "terminal-light"
+    }
   }
 }

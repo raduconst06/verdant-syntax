@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.4.0
+
+- Merge dark and light file icons into one automatically adapting theme.
+- Add Verdant Phosphor Product Icons for core VS Code interface actions.
+- Preserve Codicons as fallback for product icons not explicitly remapped.
+
 ## 0.3.1
 
 - Add a dedicated Verdant Phosphor Light icon set with stronger contrast.
