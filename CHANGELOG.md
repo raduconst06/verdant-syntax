@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.4.3
+
+- Improve title-bar navigation and Command Center contrast on sage surfaces.
+- Add explicit active, inactive, hover and border colors for title-bar controls.
+
 ## 0.4.2
 
 - Replace the title and status bar greens with muted sage tones.
