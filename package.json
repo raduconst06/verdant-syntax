@@ -2,7 +2,7 @@
   "name": "verdant-syntax",
   "displayName": "Verdant Syntax",
   "description": "Nebula-inspired VS Code color and file icon themes with dark and light variants.",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "publisher": "local",
   "license": "MIT",
   "engines": {
