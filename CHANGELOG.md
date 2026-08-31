@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.4.1
+
+- Give the title bar and status bar matching green surfaces in both color themes.
+- Use deep forest green on Dark and a muted sage on Light.
+
 ## 0.4.0
 
 - Merge dark and light file icons into one automatically adapting theme.
