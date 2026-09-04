@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.5.0
+
+- Add an optional Acrylic compatibility setting and commands.
+- Add configurable transparency for all major Dark and Light workbench surfaces.
+- Preserve and restore existing theme-specific color customizations when toggled.
+
 ## 0.4.3
 
 - Improve title-bar navigation and Command Center contrast on sage surfaces.

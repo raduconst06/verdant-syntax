@@ -2,9 +2,15 @@
   "name": "verdant-syntax",
   "displayName": "Verdant Syntax",
   "description": "Nebula-inspired VS Code color and file icon themes with dark and light variants.",
-  "version": "0.4.3",
+  "version": "0.5.0",
   "publisher": "local",
   "license": "MIT",
+  "main": "./extension.js",
+  "activationEvents": [
+    "onStartupFinished",
+    "onCommand:verdantSyntax.enableAcrylic",
+    "onCommand:verdantSyntax.disableAcrylic"
+  ],
   "engines": {
     "vscode": "^1.85.0"
   },
@@ -36,6 +42,33 @@
         "label": "Verdant Phosphor Product Icons",
         "path": "./product-icons/verdant-phosphor-product-icon-theme.json"
       }
-    ]
+    ],
+    "commands": [
+      {
+        "command": "verdantSyntax.enableAcrylic",
+        "title": "Verdant Syntax: Enable Acrylic Compatibility"
+      },
+      {
+        "command": "verdantSyntax.disableAcrylic",
+        "title": "Verdant Syntax: Disable Acrylic Compatibility"
+      }
+    ],
+    "configuration": {
+      "title": "Verdant Syntax",
+      "properties": {
+        "verdantSyntax.acrylic.enabled": {
+          "type": "boolean",
+          "default": false,
+          "description": "Makes Verdant workbench surfaces transparent. Native Acrylic blur requires a separate Windows backdrop provider."
+        },
+        "verdantSyntax.acrylic.opacity": {
+          "type": "number",
+          "default": 0.78,
+          "minimum": 0.35,
+          "maximum": 0.98,
+          "description": "Opacity of Verdant workbench surfaces when Acrylic compatibility is enabled."
+        }
+      }
+    }
   }
 }
