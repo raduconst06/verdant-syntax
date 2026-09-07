@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.5.1
+
+- Remove Acrylic compatibility and restore a fully opaque theme.
+- Return the extension to a declarative, activation-free theme package.
+
 ## 0.5.0
 
 - Add an optional Acrylic compatibility setting and commands.
