@@ -22,6 +22,16 @@ the VS Code interface using the official Phosphor icon font.
 5. Optionally run **Preferences: Product Icon Theme** and select
    **Verdant Phosphor Product Icons**.
 
+## Accent color picker
+
+Run **Verdant Syntax: Pick Accent Color** to open the visual picker. It shows
+Dark and Light previews and derives suitable surface and focus shades from one
+selected color. The accent is applied to title and status bars, buttons,
+badges, focus outlines, the editor cursor and active borders.
+
+Use **Verdant Syntax: Reset Accent Color** to restore the bundled palette.
+Existing unrelated `workbench.colorCustomizations` values are preserved.
+
 To package it, run `npx @vscode/vsce package` from this folder. Change the
 `publisher` field before publishing to the Marketplace.
 

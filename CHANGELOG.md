@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.6.0
+
+- Add a visual accent color picker with live Dark and Light previews.
+- Derive accessible surface, focus and foreground colors from one accent.
+- Preserve unrelated workbench customizations and provide a safe reset command.
+
 ## 0.5.1
 
 - Remove Acrylic compatibility and restore a fully opaque theme.

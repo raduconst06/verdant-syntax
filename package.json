@@ -2,9 +2,15 @@
   "name": "verdant-syntax",
   "displayName": "Verdant Syntax",
   "description": "Nebula-inspired VS Code color and file icon themes with dark and light variants.",
-  "version": "0.5.1",
+  "version": "0.6.0",
   "publisher": "local",
   "license": "MIT",
+  "main": "./extension.js",
+  "activationEvents": [
+    "onStartupFinished",
+    "onCommand:verdantSyntax.pickAccentColor",
+    "onCommand:verdantSyntax.resetAccentColor"
+  ],
   "engines": {
     "vscode": "^1.85.0"
   },
@@ -36,6 +42,28 @@
         "label": "Verdant Phosphor Product Icons",
         "path": "./product-icons/verdant-phosphor-product-icon-theme.json"
       }
-    ]
+    ],
+    "commands": [
+      {
+        "command": "verdantSyntax.pickAccentColor",
+        "title": "Verdant Syntax: Pick Accent Color"
+      },
+      {
+        "command": "verdantSyntax.resetAccentColor",
+        "title": "Verdant Syntax: Reset Accent Color"
+      }
+    ],
+    "configuration": {
+      "title": "Verdant Syntax",
+      "properties": {
+        "verdantSyntax.accentColor": {
+          "type": "string",
+          "default": "",
+          "pattern": "^$|^#[0-9A-Fa-f]{6}$",
+          "patternErrorMessage": "Use an empty value or a six-digit hex color such as #6F887A.",
+          "description": "Custom accent color. Leave empty to use the theme default."
+        }
+      }
+    }
   }
 }
